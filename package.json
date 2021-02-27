@@ -1,0 +1,17 @@
+{
+  "name": "belajar-node-rest-api",
+  "version": "1.0.0",
+  "description": "Latihan membuat REST API menggunakan NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hadi Hidayat Hammurabi <hadihammurabi@gmail.com>",
+  "license": "Mozilla Public License 2.0",
+  "dependencies": {
+    "fastify": "^3.12.0"
+  }
+}
