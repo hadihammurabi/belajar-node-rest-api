@@ -1,0 +1,11 @@
+const tableName = '';
+
+exports.up = ({ schema }) => {
+  return schema.createTable(tableName, (table) => {
+    table.increments('id');
+  });
+};
+
+exports.down = ({ schema }) => {
+  return schema.dropTable(tableName);
+};

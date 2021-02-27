@@ -7,13 +7,18 @@
     "start": "node .",
     "dev": "nodemon --exec 'npm run lint && NODE_ENV=development node .'",
     "lint": "eslint .",
+    "db": "knex",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Hadi Hidayat Hammurabi <hadihammurabi@gmail.com>",
   "license": "Mozilla Public License 2.0",
   "dependencies": {
-    "fastify": "^3.12.0"
+    "dotenv": "^8.2.0",
+    "fastify": "^3.12.0",
+    "knex": "^0.21.18",
+    "objection": "^2.2.14",
+    "sqlite3": "^5.0.2"
   },
   "devDependencies": {
     "eslint": "^7.20.0",
